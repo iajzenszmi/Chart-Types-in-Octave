@@ -1,0 +1,127 @@
+ian@ian-Aspire-One-753:~$ octave
+GNU Octave, version 6.4.0
+Copyright (C) 2021 The Octave Project Developers.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+
+Octave was configured for "x86_64-pc-linux-gnu".
+
+Additional information about Octave is available at https://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit https://www.octave.org/get-involved.html
+
+Read https://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+
+octave:1> % Unified program to display various chart types without intrinsic functions
+
+function chart_demo()
+    figure;
+    subplot(5, 5, 1); bar_chart();
+    subplot(5, 5, 2); pie_chart();
+    subplot(5, 5, 3); histogram_chart();
+    subplot(5, 5, 4); line_graph();
+    subplot(5, 5, 5); scatter_plot();
+    subplot(5, 5, 6); pictograph();
+    subplot(5, 5, 7); box_plot();
+    subplot(5, 5, 8); area_chart();
+    subplot(5, 5, 9); radar_chart();
+    subplot(5, 5, 10); bubble_chart();
+    subplot(5, 5, 11); dot_plot();
+    subplot(5, 5, 12); exponential_graph();
+    subplot(5, 5, 13); trigonometric_graph();
+    subplot(5, 5, 14); waterfall_chart();
+    subplot(5, 5, 15); heatmap();
+    subplot(5, 5, 16); logarithmic_graph();
+end
+
+% 1. Bar Chart
+function bar_chart()
+    values = [3, 7, 5, 2, 6];
+    hold on;
+    for i = 1:length(values)
+        x = [i-0.4, i+0.4, i+0.4, i-0.4];
+        y = [0, 0, values(i), values(i)];
+        fill(x, y, 'b');
+    end
+    title('Bar Chart');
+    hold off;
+end
+
+% 2. Pie Chart
+function pie_chart()
+chart_demo();oarithmic Graph');1], [i-1, i-1, i, i], [1, 0, data(i, j)]);1)];;ata(end)]);, 'y');
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
+warning: text_renderer: skipping missing glyph for character '2605'
+warning: called from
+    text at line 218 column 10
+    pictograph at line 4 column 9
+    chart_demo at line 8 column 23
+
